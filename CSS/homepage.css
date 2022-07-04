@@ -1,6 +1,7 @@
 body{
     margin: 0;
     background-color: black;
+    scroll-behavior: smooth;
 }
 .background{
     background-image: url("HomepagePic.webp");
@@ -108,7 +109,6 @@ body{
     margin-top: 150px;
     border-bottom-left-radius: 25px;
     border-top-left-radius: 25px;
-
 }
 .about-text p{
     color: white;
@@ -131,4 +131,8 @@ body{
     margin-left: 15px;
     margin-top: 12px;
     text-align: center;
+}
+
+ul li.active a{
+    color: orangered;
 }
